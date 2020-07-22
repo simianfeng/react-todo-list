@@ -18,7 +18,7 @@ const Todoitem =(props)=>{
         <form>
          <div style={{marginLeft:'0px'}}>
              <li>
-                 <Box borderBottom={1}>
+                 <Box>
                   <span ><b>{props.content}</b></span>
                   <span style={{marginLeft:"200px"}}>
                       <Select labelId="label" id="select" >
